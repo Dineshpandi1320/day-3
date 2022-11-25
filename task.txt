@@ -1,0 +1,13 @@
+difference between window,screen and document:
+WINDOW:
+It repersents  the browser window.it is loaded in the browser.global objects,functions and variables are member of window object.
+it is the object of the browser .we can access the window only.the window is part of browser object model and not
+document object model.
+
+DOCUMENT:
+It repersents html document loaded in that window .it is loaded inside the window.all tags and elements in HTML are part of document.
+we can access the window using window.document
+
+SCREEN:
+ Screen is a small information object about physical screen dimensions. it can be used to dispaly screen width,height,colorDepth,pixelDepth
+ etc. it is  not mandatory to write window prefix with screen object.it can be written without window prefix
